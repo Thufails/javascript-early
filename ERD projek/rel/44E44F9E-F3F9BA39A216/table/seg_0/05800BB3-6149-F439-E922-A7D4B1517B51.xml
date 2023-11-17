@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="05800BB3-6149-F439-E922-A7D4B1517B51" name="pemesanan">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:28:58 UTC</createdTime>
+<generatorID>59766A48-CB82-6199-2922-08208927B816</generatorID>
+<ownerDesignName>ERD projek</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pemesanan" id="55D8A98C-A6E7-337A-7802-E58E38F828BC">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:28:58 UTC</createdTime>
+<generatorID>4385C44A-A05D-29A2-BD24-0A315CB1E9D9</generatorID>
+<ownerDesignName>ERD projek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tanggal_pemesanan" id="A5836007-4215-3C81-A806-C05AF1702348">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:28:58 UTC</createdTime>
+<generatorID>AE1792AD-6780-0382-B936-8106CC80F35A</generatorID>
+<ownerDesignName>ERD projek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tanggal_pengembalian" id="E6846E2C-BDCA-112F-3E4C-68B6CA4143C5">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:28:58 UTC</createdTime>
+<generatorID>81F34E47-5E6C-0335-E608-CAD68FA08DCE</generatorID>
+<ownerDesignName>ERD projek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="71D960ED-B956-9B81-0427-B256D011262A">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:28:58 UTC</createdTime>
+<generatorID>F8ED47E9-DED5-5BB7-DF3B-40FF871B5C86</generatorID>
+<ownerDesignName>ERD projek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total_biaya" id="381AB6F8-0761-367A-EFFF-DCBF0E65AAAA">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:28:58 UTC</createdTime>
+<generatorID>EECB122B-D454-6C62-95AE-8F7C17692442</generatorID>
+<ownerDesignName>ERD projek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pengguna" id="E6628B45-88CA-CCC0-37D6-AD160A66C819">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:28:58 UTC</createdTime>
+<generatorID>69ADF291-C787-623F-1E5C-830EA8C9730D</generatorID>
+<ownerDesignName>ERD projek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="permainan" id="C0472ECD-FE14-FEAA-7CF5-61D57FC8952F">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:28:58 UTC</createdTime>
+<generatorID>7812BE72-3FAD-7385-285C-311EA0C4670D</generatorID>
+<ownerDesignName>ERD projek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pengguna_id_pengguna" id="ED639329-E564-EC50-E1CD-E481D1C7732E">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:28:58 UTC</createdTime>
+<generatorID>450A4D27-CA41-F27C-23A2-A62C3BF93728</generatorID>
+<ownerDesignName>ERD projek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AB6E7EAE-A10E-F7E7-D256-2BB290681507" referredColumn="B516D9F6-F0A2-F0AF-2E8F-3F01282B493B"/>
+</associations>
+</Column>
+<Column name="permainan_id_permainan" id="545E513C-B509-01EA-C4A6-0B5CBB856131">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:28:58 UTC</createdTime>
+<generatorID>3A57AB3D-4576-ED9C-8FEA-0CF12D37129C</generatorID>
+<ownerDesignName>ERD projek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7D8642CE-A4EF-333B-1837-28626F49560B" referredColumn="38A7CDFF-9813-93AA-0AD5-CFD8F210D5BA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A88C3F99-14BC-5708-AE2E-3A4438CB7F90" name="pemesanan_PK">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:28:58 UTC</createdTime>
+<generatorID>556748E4-5B8C-A277-98BB-B44D811F18FA</generatorID>
+<ownerDesignName>ERD projek</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55D8A98C-A6E7-337A-7802-E58E38F828BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BA9AE9AD-31CE-5139-556A-754905AE4ADA" name="pemesanan_pengguna_FK">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:28:58 UTC</createdTime>
+<generatorID>918C9C5C-3AB9-6DA9-B9C5-8E7DACE20FB9</generatorID>
+<ownerDesignName>ERD projek</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED639329-E564-EC50-E1CD-E481D1C7732E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5FAB0F3E-EF48-5523-A00B-162B3B200F42" name="pemesanan_permainan_FK">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:28:58 UTC</createdTime>
+<generatorID>F788DF16-F47A-9FBE-6E84-81600FC5EF2E</generatorID>
+<ownerDesignName>ERD projek</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="545E513C-B509-01EA-C4A6-0B5CBB856131"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

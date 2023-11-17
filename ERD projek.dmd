@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ERD projek" id="FCD1AD2C-C445-B03F-B8D2-790BB4D715BC" version="3.5">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 11:53:39 UTC</createdTime>
+<ownerDesignName>ERD projek</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>FCD1AD2C-C445-B03F-B8D2-790BB4D715BC</designId>
+</OSDM_Design>

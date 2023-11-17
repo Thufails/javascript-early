@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="90DE44B0-FD48-37D6-DAC4-7D2B4F311808" name="pengguna">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:28:58 UTC</createdTime>
+<generatorID>5881BE9C-A555-130B-2A3B-710E2134AE35</generatorID>
+<ownerDesignName>ERD projek</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pengguna" id="B516D9F6-F0A2-F0AF-2E8F-3F01282B493B">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:28:58 UTC</createdTime>
+<generatorID>88DA90EF-163B-BE79-4532-EABD1A37FE99</generatorID>
+<ownerDesignName>ERD projek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama" id="A9123493-08D8-2D67-9BCB-DDC47F9A6257">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:28:58 UTC</createdTime>
+<generatorID>32A226C0-F7E3-C69F-A114-341110EF5951</generatorID>
+<ownerDesignName>ERD projek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alamat_email" id="9981C9E0-0715-9DA3-D1CB-985118DDCF9E">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:28:58 UTC</createdTime>
+<generatorID>056FD408-466C-03C8-DD32-8171F1187ACC</generatorID>
+<ownerDesignName>ERD projek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kata_sandi" id="722C037D-09DD-11C7-ABE2-9692AFFCE157">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:28:58 UTC</createdTime>
+<generatorID>CC999B3C-3123-3551-4088-C7837ABC5604</generatorID>
+<ownerDesignName>ERD projek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="peran" id="24C79BD5-620A-A83C-26B3-3716EA8B9E46">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:28:58 UTC</createdTime>
+<generatorID>805B8CA8-9198-F80B-4866-3CC763A6563B</generatorID>
+<ownerDesignName>ERD projek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="admin_id_admin" id="F596FBE5-5C74-A7D7-6C13-D93594778919">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:28:58 UTC</createdTime>
+<generatorID>BE41C65F-CC95-CB9B-52C4-4A72AF8BD6AF</generatorID>
+<ownerDesignName>ERD projek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="99FF1E3B-83E6-7A71-0BE0-F6129A4D670F" referredColumn="9E4C0983-7FE5-EE33-A208-4492A4F40D3C"/>
+</associations>
+</Column>
+<Column name="metode_pembayaran_id_metodePembayaran" id="1F862BC3-EC88-6CD1-DDD6-A75647EE2519">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:28:58 UTC</createdTime>
+<generatorID>D25B59F7-AD09-0736-A856-85462780B920</generatorID>
+<ownerDesignName>ERD projek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E116702F-D437-3CBD-AAA2-F0F2F47E8E7A" referredColumn="235B734D-E3A0-1DC9-89A3-39F28B2E7D90"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2810D6CC-B403-799C-B4DB-9DBEC73CDEAF" name="pengguna_PK">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:28:58 UTC</createdTime>
+<generatorID>79E96292-D6F7-8005-7513-CAD5BE2473B5</generatorID>
+<ownerDesignName>ERD projek</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B516D9F6-F0A2-F0AF-2E8F-3F01282B493B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="716B4629-7642-53D8-50D3-7A76A95B48DB" name="pengguna_admin_FK">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:28:58 UTC</createdTime>
+<generatorID>BFB019DF-FA5B-7CF4-AE5E-9006F01AE6AC</generatorID>
+<ownerDesignName>ERD projek</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F596FBE5-5C74-A7D7-6C13-D93594778919"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DE7C262B-2354-37BD-D97E-8F53720E70B5" name="pengguna_metode_pembayaran_FK">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:28:58 UTC</createdTime>
+<generatorID>1718877F-39E6-A0E8-9814-B88F36F4A5C7</generatorID>
+<ownerDesignName>ERD projek</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F862BC3-EC88-6CD1-DDD6-A75647EE2519"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

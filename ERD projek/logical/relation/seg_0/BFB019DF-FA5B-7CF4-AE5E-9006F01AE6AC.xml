@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_2" directorySegmentName="seg_0" id="BFB019DF-FA5B-7CF4-AE5E-9006F01AE6AC">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:20:59 UTC</createdTime>
+<ownerDesignName>ERD projek</ownerDesignName>
+<engineerTo>
+<item key="44E44F9E-A942-77CF-71B2-F3F9BA39A216" value="true"/>
+</engineerTo>
+<sourcePk>6AE6C3BC-75C3-0EA0-5EC3-361D55D17E78</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>31B9C4AC-7A95-5F54-87F6-4BA6D774BFB0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5881BE9C-A555-130B-2A3B-710E2134AE35</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

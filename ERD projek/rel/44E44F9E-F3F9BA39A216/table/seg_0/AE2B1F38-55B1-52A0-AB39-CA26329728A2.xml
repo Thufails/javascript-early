@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AE2B1F38-55B1-52A0-AB39-CA26329728A2" name="konsol_ps">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:28:58 UTC</createdTime>
+<generatorID>A0F7985E-A364-B668-4F8B-147ED1EF0179</generatorID>
+<ownerDesignName>ERD projek</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_jenisKonsol" id="8257FB30-ED9C-332F-504C-289B7D95E905">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:28:58 UTC</createdTime>
+<generatorID>A1F58090-9B68-FDA7-4C61-9DE6585EEFC8</generatorID>
+<ownerDesignName>ERD projek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_jenisKonsol" id="BE5AE183-9663-5ACC-99C1-1F28EF34E76F">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:28:58 UTC</createdTime>
+<generatorID>213D2A33-5AD5-CF38-8762-4919D196A135</generatorID>
+<ownerDesignName>ERD projek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="deskripsi" id="1802F5C8-83CB-E802-DBC2-0E07C7EFCE85">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:28:58 UTC</createdTime>
+<generatorID>C70142B8-1C9A-5F64-7C67-1789A422DE0B</generatorID>
+<ownerDesignName>ERD projek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="permainan_id_permainan" id="83677344-D57E-B0C5-4A10-3C398C69E044">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:28:58 UTC</createdTime>
+<generatorID>1987F3E4-C317-BD77-3F93-C3D3D468E5C5</generatorID>
+<ownerDesignName>ERD projek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4A29C8BA-473F-FCE0-549E-35ED88399576" referredColumn="38A7CDFF-9813-93AA-0AD5-CFD8F210D5BA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C49396CD-6226-AA24-858D-06AD7F54B351" name="konsol_ps_PK">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:28:58 UTC</createdTime>
+<generatorID>9CDC6269-0A7E-9DA2-69D9-D37723A59901</generatorID>
+<ownerDesignName>ERD projek</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8257FB30-ED9C-332F-504C-289B7D95E905"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="620AC402-1650-821E-B953-D6801D7C21F3" name="konsol_ps_permainan_FK">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:28:58 UTC</createdTime>
+<generatorID>E3D013E1-F6A2-C88B-9EF4-8A722A66AA30</generatorID>
+<ownerDesignName>ERD projek</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83677344-D57E-B0C5-4A10-3C398C69E044"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

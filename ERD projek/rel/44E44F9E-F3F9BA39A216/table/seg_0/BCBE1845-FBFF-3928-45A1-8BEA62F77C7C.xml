@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BCBE1845-FBFF-3928-45A1-8BEA62F77C7C" name="history">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:28:58 UTC</createdTime>
+<generatorID>857A8DD2-D9DD-4661-4E04-D3D6A4D7E81F</generatorID>
+<ownerDesignName>ERD projek</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_aktivitas" id="40EA721A-1F87-B7DF-4BF6-08940CC45996">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:28:58 UTC</createdTime>
+<generatorID>6A905B94-F918-5859-AC7F-F94537EC6977</generatorID>
+<ownerDesignName>ERD projek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipe_aktivitas" id="E3CFBBDD-E51B-7FB9-6AAE-FFB0E223F137">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:28:58 UTC</createdTime>
+<generatorID>93929DAC-A7D0-4186-43A8-8D7029EB4A47</generatorID>
+<ownerDesignName>ERD projek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_pengguna" id="690CF3AD-B44C-665C-7F25-933F21353E83">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:28:58 UTC</createdTime>
+<generatorID>B19F404D-3996-8384-7A0A-B58AAE7C6F77</generatorID>
+<ownerDesignName>ERD projek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="timestamp" id="E1FBB866-625B-A8D6-2475-3CEC4C1ECF5D">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:28:58 UTC</createdTime>
+<generatorID>5C7454A6-7CF7-1CAC-0189-3FFF32E13865</generatorID>
+<ownerDesignName>ERD projek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pengguna_id_pengguna" id="63AF8B9A-BF56-3550-8A8A-67BAD3B6DCA5">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:28:58 UTC</createdTime>
+<generatorID>CD4A86E8-77F4-91C1-69F5-4AA860641C90</generatorID>
+<ownerDesignName>ERD projek</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2BC76285-CC53-6679-B787-C957CD91391D" referredColumn="B516D9F6-F0A2-F0AF-2E8F-3F01282B493B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="20F71693-0CB7-8FE5-16AD-ACC342ED3260" name="history_PK">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:28:58 UTC</createdTime>
+<generatorID>BC228BB0-50A4-1CB8-213C-B19208B158C1</generatorID>
+<ownerDesignName>ERD projek</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40EA721A-1F87-B7DF-4BF6-08940CC45996"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6DBBEED-F1B5-D161-56C4-37D5AFAA49E6" name="history_pengguna_FK">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:28:58 UTC</createdTime>
+<generatorID>6E40C8BD-C392-D0B6-3151-E1FDB09B4DAB</generatorID>
+<ownerDesignName>ERD projek</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63AF8B9A-BF56-3550-8A8A-67BAD3B6DCA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

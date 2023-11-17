@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A0F7985E-A364-B668-4F8B-147ED1EF0179" name="konsol_ps">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:06:29 UTC</createdTime>
+<ownerDesignName>ERD projek</ownerDesignName>
+<engineerTo>
+<item key="44E44F9E-A942-77CF-71B2-F3F9BA39A216" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="A1F58090-9B68-FDA7-4C61-9DE6585EEFC8">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:06:40 UTC</createdTime>
+<ownerDesignName>ERD projek</ownerDesignName>
+<engineerTo>
+<item key="44E44F9E-A942-77CF-71B2-F3F9BA39A216" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama_jenisKonsol" id="213D2A33-5AD5-CF38-8762-4919D196A135">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:06:51 UTC</createdTime>
+<ownerDesignName>ERD projek</ownerDesignName>
+<engineerTo>
+<item key="44E44F9E-A942-77CF-71B2-F3F9BA39A216" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="deskripsi" id="C70142B8-1C9A-5F64-7C67-1789A422DE0B">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:07:38 UTC</createdTime>
+<ownerDesignName>ERD projek</ownerDesignName>
+<engineerTo>
+<item key="44E44F9E-A942-77CF-71B2-F3F9BA39A216" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="6577CE26-4CA6-F3F5-2044-2B6E5769A9CF">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 14:39:59 UTC</createdTime>
+<generatorID>5B50C982-5795-5F00-FE53-92F138758DD0</generatorID>
+<ownerDesignName>ERD projek</ownerDesignName>
+<engineerTo>
+<item key="44E44F9E-A942-77CF-71B2-F3F9BA39A216" value="true"/>
+</engineerTo>
+<referedAttribute>91775B60-F681-EE78-CBC3-F28D08632791</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9CDC6269-0A7E-9DA2-69D9-D37723A59901" name="konsol_ps PK">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:07:03 UTC</createdTime>
+<ownerDesignName>ERD projek</ownerDesignName>
+<engineerTo>
+<item key="44E44F9E-A942-77CF-71B2-F3F9BA39A216" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A1F58090-9B68-FDA7-4C61-9DE6585EEFC8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

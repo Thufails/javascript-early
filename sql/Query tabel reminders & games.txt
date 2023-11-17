@@ -1,0 +1,46 @@
+create table histroy(
+	id serial primary key,
+	reminders_date date NOT NULL,
+	reminders_message text NOT NULL,
+	users_id int NOT NULL
+	);
+--CREATE 
+INSERT INTO histroy (reminders_date, reminders_message, users_id)
+VALUES ('2023-09-15 14:30:00', 'Pesan Kosong', 123);
+--READ
+--baca semua tabel
+SELECT * FROM histroy;
+--baca reminders_message saja
+SELECT reminders_message FROM histroy WHERE id = 1;
+--UPDATE
+UPDATE histroy
+SET reminders_message = 'Tolong Kembalikan PS yang anda Sewa', users_id = 1
+WHERE id = 1;
+--DELETE
+DELETE FROM histroy WHERE id = 1;
+
+
+CREATE TABLE games (
+ id serial primary key,
+ title VARCHAR(255) not null,
+ rental_price DECIMAL not null,
+ stok INT not null,
+ release_at TIMESTAMP not null,
+ console_type VARCHAR not null
+);
+
+INSERT INTO games (id, title, rental_price, stok, release_at, console_type)
+VALUES (1, 'Game 1', 10000, 100, '2023-09-15 12:00:00', 'PS5'), 
+		(2, 'Game 2', 12000, 80, '2023-09-14 12:00:00', 'PS4');
+
+SELECT * FROM games;
+SELECT title, rental_price FROM games WHERE ID = 2;
+
+UPDATE games
+SET 
+ rental_price = 10500, 
+ stok = 90
+WHERE id = 1;
+
+DELETE FROM games
+WHERE id = 2;

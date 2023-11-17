@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4A29C8BA-473F-FCE0-549E-35ED88399576" containerWithKeyObject="AE2B1F38-55B1-52A0-AB39-CA26329728A2" localFKIndex="620AC402-1650-821E-B953-D6801D7C21F3" name="konsol_ps_permainan_FK">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:28:58 UTC</createdTime>
+<generatorID>E3D013E1-F6A2-C88B-9EF4-8A722A66AA30</generatorID>
+<ownerDesignName>ERD projek</ownerDesignName>
+<referredTableLongName>permainan</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>07DF6073-C696-A9A8-82C6-C89919001172</referredTableID>
+<keyObject>4CE3086D-F63F-B0E8-F19A-832D69A3302D</keyObject>
+<referredKeyID>4CE3086D-F63F-B0E8-F19A-832D69A3302D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_permainan</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

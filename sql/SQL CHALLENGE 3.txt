@@ -1,0 +1,60 @@
+create table nasabah(
+	id serial primary key,
+	nama varchar(255) NOT NULL,
+	tgl_lahir date NOT NULL,
+	alamat varchar(255) NOT NULL,
+	pekerjaan varchar(255) NOT NULL
+	);
+select * from nasabah
+INSERT INTO nasabah (nama, tgl_lahir, alamat, pekerjaan)
+VALUES ('M. Rafi', '2002-08-21', 'Jl. Mastrip 7 no 3', 'Mahasiswa'),
+('Andi Benny', '2001-05-29', 'Jl. Bengawan Solo 1', 'Kasir')
+select * from nasabah where id=2;
+
+UPDATE nasabah
+SET nama = 'M. Farros', tgl_lahir = '2004-07-14', alamat = 'Jl. Jawa 7 no 5', pekerjaan = 'Pelajar'
+WHERE id = 2;
+
+DELETE FROM nasabah WHERE id = 2;
+
+create type rek_enum as enum ('britama', 'simpedes');
+create table akun(
+	id serial primary key,
+	no_rekening bigint NOT NULL,
+	saldo bigint NOT NULL UNIQUE,
+	email varchar(255) NOT NULL,
+	pass_akun varchar(255) NOT NULL,
+	jenis_rek rek_enum,
+	pemilik_id INT REFERENCES nasabah(id)
+);
+select * from akun
+select * from akun where id=2
+INSERT INTO akun (no_rekening, saldo, email, pass_akun, jenis_rek, pemilik_id)
+VALUES (121234911, 1000000, 'rafith@email.com', 'password123', 'britama', 1),
+(121334912, 2500000, 'rafi21@email.com', 'rafi123', 'britama', 1),
+(131334913, 990000, 'faros14@email.com', 'faros1414', 'simpedes', 2);
+
+UPDATE akun
+SET no_rekening = '131334913', saldo = '12999000', email = 'rafi21@email.com', pass_akun = 'rafi123', pemilik_id = 1
+WHERE id=2
+delete from akun where id = 1
+
+create type transaksi_enum as enum ('tabungan', 'giro');
+create table transaksi(
+	id serial primary key,
+	tgl_transaksi date NOT NULL,
+	jenis_transaksi transaksi_enum,
+	jumlah_transaksi int NOT NULL,
+	akun_id INT REFERENCES akun(id)
+);
+select * from transaksi 
+INSERT INTO transaksi (tgl_transaksi, jenis_transaksi, jumlah_transaksi, akun_id)
+VALUES ('2023-09-15', 'tabungan', 100000,1);
+
+SELECT * FROM transaksi WHERE id = 1;
+UPDATE transaksi
+SET tgl_transaksi = '2023-09-21', jumlah_transaksi = 150000
+WHERE id = 1;
+
+delete from transaksi where id=1
+

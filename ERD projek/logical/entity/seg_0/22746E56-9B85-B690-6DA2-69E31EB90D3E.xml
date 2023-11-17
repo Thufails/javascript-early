@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="22746E56-9B85-B690-6DA2-69E31EB90D3E" name="metode_pembayaran">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:12:16 UTC</createdTime>
+<ownerDesignName>ERD projek</ownerDesignName>
+<engineerTo>
+<item key="44E44F9E-A942-77CF-71B2-F3F9BA39A216" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="3BE0B8DF-B64A-3159-7C31-6642D5849C35">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:12:27 UTC</createdTime>
+<ownerDesignName>ERD projek</ownerDesignName>
+<engineerTo>
+<item key="44E44F9E-A942-77CF-71B2-F3F9BA39A216" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jenis_pembayaran" id="7112F67B-D438-932B-A298-B1A0A137FB8A">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:12:45 UTC</createdTime>
+<ownerDesignName>ERD projek</ownerDesignName>
+<engineerTo>
+<item key="44E44F9E-A942-77CF-71B2-F3F9BA39A216" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomor_kartuKredit" id="20C8CFC8-A233-F33B-D064-575D2079A7AC">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:12:56 UTC</createdTime>
+<ownerDesignName>ERD projek</ownerDesignName>
+<engineerTo>
+<item key="44E44F9E-A942-77CF-71B2-F3F9BA39A216" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama_pemilikKartu" id="0C82672F-CE95-BC60-2B97-628DA1C2CC74">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:13:11 UTC</createdTime>
+<ownerDesignName>ERD projek</ownerDesignName>
+<engineerTo>
+<item key="44E44F9E-A942-77CF-71B2-F3F9BA39A216" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tanggal_kadaluarsa" id="1E9DEF2D-2049-18CE-1047-EC6851FBC288">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:13:21 UTC</createdTime>
+<ownerDesignName>ERD projek</ownerDesignName>
+<engineerTo>
+<item key="44E44F9E-A942-77CF-71B2-F3F9BA39A216" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pengguna" id="07FD7EAC-375A-09DB-2755-B1F3854A102B">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:13:38 UTC</createdTime>
+<ownerDesignName>ERD projek</ownerDesignName>
+<engineerTo>
+<item key="44E44F9E-A942-77CF-71B2-F3F9BA39A216" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C4CF7311-8326-227D-B584-C6047F807090" name="metode_pembayaran PK">
+<createdBy>Thufail</createdBy>
+<createdTime>2023-09-13 12:12:38 UTC</createdTime>
+<ownerDesignName>ERD projek</ownerDesignName>
+<engineerTo>
+<item key="44E44F9E-A942-77CF-71B2-F3F9BA39A216" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3BE0B8DF-B64A-3159-7C31-6642D5849C35</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
